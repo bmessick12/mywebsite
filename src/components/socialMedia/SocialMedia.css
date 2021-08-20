@@ -58,13 +58,13 @@
 }
 
 .google i {
-  background-color: #ea4335;
+  background-color: #857e7f;
   transition: all 0.2s ease-in-out;
 }
 
 .google i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #ea4335;
+  box-shadow: 0 5px 15px #857e7f;
 }
 
 .instagram i {

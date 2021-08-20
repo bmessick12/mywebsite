@@ -26,7 +26,7 @@ const socialMediaLinks = {
   github: "https://github.com/bmessick12",
   linkedin: "https://www.linkedin.com/in/brian-messick/",
   gmail: "bmessick12@gmail.com",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
+  facebook: "https://www.facebook.com/eyebrian",
   instagram: "https://www.instagram.com/eye_brian/",
 };
 

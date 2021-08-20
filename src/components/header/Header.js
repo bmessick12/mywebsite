@@ -97,7 +97,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Animation
               </NavLink>
             </li>
             <li>
@@ -108,7 +108,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience
+                Web
               </NavLink>
             </li>
             <li>
@@ -119,9 +119,22 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Projects
+                Print
               </NavLink>
             </li>
+
+            <li>
+              <NavLink
+                className="cr"
+                to="/illustration"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Illustration
+              </NavLink>
+            </li>
+
             <li>
               <NavLink
                 className="cr"
@@ -130,9 +143,10 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Resume
               </NavLink>
             </li>
+
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

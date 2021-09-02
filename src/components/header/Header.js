@@ -119,19 +119,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Print
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink
-                className="cr"
-                to="/illustration"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Illustration
+                Print/Illustration
               </NavLink>
             </li>
 

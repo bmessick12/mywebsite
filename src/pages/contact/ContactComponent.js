@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
+// import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -17,7 +17,7 @@ function Contact(props) {
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
+      // BOXSHADOW: `0 5PX 15PX ${THEME.ACCENTBRIGHT}`,
     },
   });
 
@@ -75,7 +75,7 @@ function Contact(props) {
               </div>
             </div>
             <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
+              {/* <BlogsImg theme={theme} /> */}
             </div>
           </div>
         </Fade>

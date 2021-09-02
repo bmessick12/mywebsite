@@ -9,16 +9,15 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Brian Messick",
+  title: "Hi",
+  title2: "2021",
   logo_name: "WELCOME",
-  nickname: "Brian/ Messick",
   full_name: "Brian Messick",
   subTitle:
-    "I have a passion for design. I love animation, illustration and I'm always learning. 🔥 ",
+    "I have a passion for design. I love animation, illustration and I'm constantly challenging myself and learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+    "https://docs.google.com/document/d/e/2PACX-1vR24iq1XBQhODLGkMwurCocsE-i66Z_y1JPeCK0fYdPk9qBSrvXb11zCYKczhSwRw0UE3et_ikFj7JN/pub",
+  mail: "mailto:bmessick12@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -370,8 +369,8 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Websites",
+  subtitle: "Wordpress, JavaScript and Protypes",
   description:
     "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
@@ -479,9 +478,8 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+  title: "Print Projects",
+  description: "I have a variety of print and illustrion projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -491,13 +489,12 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "harikrushn.jpg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Click below to contact me. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+    title: "",
+    subtitle: "Check out my linkedin page.",
+    link: "https://www.linkedin.com/in/brian-messick/",
     avatar_image_path: "blogs_image.svg",
   },
 };

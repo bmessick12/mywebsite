@@ -16,7 +16,6 @@ function CertificationCard(props) {
 
   return (
     <Fade left duration={2000}>
-      <h1>{certificate.title}</h1>
       <h2>{certificate.logo_path}</h2>
       <h3>{certificate.certificate_link}</h3>
     </Fade>

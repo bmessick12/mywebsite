@@ -15,11 +15,6 @@ function Certifications(props) {
           </h1>
         </Fade>
       </div>
-      <div className="certs-body-div">
-        {certifications.certifications.map((cert) => {
-          return <CertificationCard certificate={cert} theme={theme} />;
-        })}
-      </div>
     </div>
   );
 }

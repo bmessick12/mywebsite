@@ -25,7 +25,8 @@ function SkillSection(props) {
             <div className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <img src="https://media.istockphoto.com/photos/beautiful-sunset-over-the-tropical-sea-picture-id1172427455?k=20&m=1172427455&s=612x612&w=0&h=tL1ig4N68zXv9wKgZ3_tOeVP1qV3zSfjjS_jbyeyGCA="></img>
+                  {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
                 </div>
               </Fade>
 
@@ -84,7 +85,8 @@ function SkillSection(props) {
               </div>
               <Fade right duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <img src="./accumed2.jpg"></img>
+                  {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
                 </div>
               </Fade>
             </div>

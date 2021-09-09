@@ -35,11 +35,10 @@ const skills = {
       title: "Adobe",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Develop print, web content, and wireframes/prototypes",
+        "⚡ Building videos for interactive outdoor signage",
+        "⚡ Develop social media ads for twitter, fb, linkden, and instagram",
+        "⚡ Developed animated web banner ads",
       ],
       softwareSkills: [
         {
@@ -90,14 +89,35 @@ const skills = {
           skillName: "Adobe Illustrator",
           fontAwesomeClassname: "simple-icons:adobeillustrator",
           style: {
-            color: "#0865A6",
+            color: "#ffcb41",
           },
         },
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
           style: {
-            color: "#207297",
+            color: "#EA3ef1",
+          },
+        },
+        {
+          skillName: "Adobe Indesign",
+          fontAwesomeClassname: "simple-icons:adobeindesign",
+          style: {
+            color: "#E749A0",
+          },
+        },
+        {
+          skillName: "Adobe Dreamweaver",
+          fontAwesomeClassname: "simple-icons:adobedreamweaver",
+          style: {
+            color: "#89ef08",
+          },
+        },
+        {
+          skillName: "Adobe Animate",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#FF401f",
           },
         },
       ],
@@ -255,7 +275,7 @@ const certifications = {
       color_code: "#2AAFED",
     },
     {
-      title: "Poop Student Expert",
+      title: "BRIAN Student Expert",
       subtitle: "Postman",
       logo_path: "postman.png",
       certificate_link:
@@ -279,10 +299,11 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Websites",
-  subtitle: "Wordpress, JavaScript and Protypes",
+  subtitle: "Wordpress, JavaScript and Prototypes",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
-  header_image_path: "experience.svg",
+    "bla blah blah text anizing workshops to share my knowledge with others.",
+  header_image_path: "accumed 1.jpeg",
+
   sections: [
     {
       title: "Work Experience",
@@ -292,6 +313,7 @@ const experience = {
           company: "Valora Infotech",
           company_url: "https://valora-infotech.business.site/",
           logo_path: "Thanks.gif",
+
           duration: "Oct 2020 - Mar 2021",
           location: "Office",
           description:
@@ -659,7 +681,7 @@ const projects = {
       languages: [
         {
           name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          iconifyClass: "",
         },
         {
           name: "ReactJS",

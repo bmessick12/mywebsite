@@ -5,6 +5,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
+// import { Example } from "../../components/carousel/index.js"
 
 function Experience(props) {
   const theme = props.theme;
@@ -12,6 +13,7 @@ function Experience(props) {
   return (
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />
+      {/* <Example /> */}
       <div className="basic-experience">
         <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
@@ -38,7 +40,8 @@ function Experience(props) {
           </div>
         </Fade>
       </div>
-      <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+
+      {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

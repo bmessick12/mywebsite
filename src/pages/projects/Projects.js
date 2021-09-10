@@ -25,7 +25,7 @@ function Projects(props) {
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
             <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
+              {/* <ProjectsImg theme={theme} /> */}
             </div>
             <div className="projects-heading-text-div">
               <h1
@@ -34,6 +34,8 @@ function Projects(props) {
               >
                 {projectsHeader.title}
               </h1>
+              <img src="accumed2.jpg"></img>
+
               <p
                 className="projects-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}

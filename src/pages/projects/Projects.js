@@ -34,7 +34,7 @@ function Projects(props) {
               >
                 {projectsHeader.title}
               </h1>
-              <img src="accumed2.jpg"></img>
+              <img src="./accumed2.jpg"></img>
 
               <p
                 className="projects-header-detail-text subTitle"

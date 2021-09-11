@@ -5,7 +5,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-// import { Example } from "../../components/carousel/index.js"
+// import { Example } from "../../components/carousel/";
 
 function Experience(props) {
   const theme = props.theme;
@@ -39,6 +39,10 @@ function Experience(props) {
             </div>
           </div>
         </Fade>
+      </div>
+
+      <div>
+        <img src="/src/assests/images/dance.illustrations.jpg"></img>
       </div>
 
       {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}

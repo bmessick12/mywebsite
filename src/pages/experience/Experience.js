@@ -6,6 +6,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 // import { Example } from "../../components/carousel/";
+import Slider from "../..//components/slider/slider";
 
 function Experience(props) {
   const theme = props.theme;
@@ -40,7 +41,7 @@ function Experience(props) {
           </div>
         </Fade>
       </div>
-
+      <Slider />
       <div>
         <img src="/src/assests/images/dance.illustrations.jpg"></img>
       </div>

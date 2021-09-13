@@ -42,6 +42,7 @@ function Experience(props) {
         </Fade>
       </div>
       <Slider />
+
       <div>
         <img src="/src/assests/images/dance.illustrations.jpg"></img>
       </div>

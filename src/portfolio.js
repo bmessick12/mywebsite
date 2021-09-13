@@ -301,8 +301,8 @@ const experience = {
   title: "Websites",
   subtitle: "Wordpress, JavaScript and Prototypes",
   description:
-    "bla blah blah text anizing workshops to share my knowledge with others.",
-  header_image_path: "accumed 1.jpeg",
+    "bla blah blah text anizing workshops to share my knowledge with others.bla blah blah text anizing workshops to share my knowledge with others.",
+  header_image_path: "./assests/images/dance.illustrations.jpg",
 
   sections: [
     {
@@ -410,7 +410,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Print Projects",
-  description: "I have a variety of print and illustrion projects.",
+  description:
+    "I have a variety of print and illustrion projects.I have a variety of print and illustrion projects.I have a variety of print and illustrion projects.I have a variety of print and illustrion projects.",
   avatar_image_path: "projects_image.svg",
 };
 

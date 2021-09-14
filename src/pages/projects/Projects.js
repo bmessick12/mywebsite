@@ -8,6 +8,9 @@ import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
 
+import "../../containers/certifications/Certifications.css";
+import Carousel from "../../components/carousel/Carousel";
+
 function Projects(props) {
   const theme = props.theme;
 
@@ -34,7 +37,6 @@ function Projects(props) {
               >
                 {projectsHeader.title}
               </h1>
-              <img src="./accumed2.jpg"></img>
 
               <p
                 className="projects-header-detail-text subTitle"
@@ -51,9 +53,6 @@ function Projects(props) {
           return <ProjectCard repo={repo} theme={theme} />;
         })} */}
       </div>
-      <br />
-      <br />
-      <br />
 
       {/* <a
         {...styles}
@@ -63,8 +62,10 @@ function Projects(props) {
         More Projects (Github)
       </a> */}
 
-      <br />
-      <br />
+      <div className="Car">
+        <Carousel />
+      </div>
+
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

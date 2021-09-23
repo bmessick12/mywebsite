@@ -1,7 +1,7 @@
 .carousel {
   width: 60%;
   height: 700px;
-  background-color: rgb(204, 197, 197);
+  background-color: rgb(255, 255, 255);
 }
 
 .carouselInner {
@@ -18,7 +18,7 @@
   height: 100%;
   display: grid;
   place-items: center;
-  color: white;
+  color: rgb(54, 53, 53);
   cursor: pointer;
 }
 
@@ -51,6 +51,6 @@ p {
   height: 100%;
   display: grid;
   place-items: center;
-  color: white;
+  color: rgb(54, 53, 53);
   cursor: pointer;
 }
